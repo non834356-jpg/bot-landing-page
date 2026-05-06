@@ -3,17 +3,17 @@ import prayagAvatar from "@/assets/prayag-avatar.jpg";
 
 export const siteConfig = {
   bot: {
-    name: "Aerox",
+    name: "AstraX",
     tagline: "The next-generation Discord bot",
     description:
-      "Aerox is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
+      "AstraX is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
     version: "v3.2.0",
     servers: "120K+",
     users: "8.4M+",
     commands: 240,
     uptime: "99.99%",
     inviteUrl: "https://discord.com/oauth2/authorize",
-    supportUrl: "https://discord.gg/aerox",
+    supportUrl: "https://discord.gg/",
   },
 
   nav: [
@@ -131,11 +131,11 @@ export const siteConfig = {
       a: "Yes, all core features are completely free. We offer an optional Premium tier for advanced music quality and exclusive customization.",
     },
     {
-      q: "How do I add Aerox to my server?",
+      q: "How do I add AstraX to my server?",
       a: "Click the Invite button anywhere on the site, authorize the bot with the Manage Server permission, and you are ready in seconds.",
     },
     {
-      q: "Does Aerox store my messages?",
+      q: "Does AstraX store my messages?",
       a: "No. We only store configuration data essential for commands. See our Privacy page for full details.",
     },
     {
