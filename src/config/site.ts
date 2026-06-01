@@ -3,17 +3,17 @@ import prayagAvatar from "@/assets/prayag-avatar.jpg";
 
 export const siteConfig = {
   bot: {
-    name: "Aerox",
+    name: "AstraX",
     tagline: "The next-generation Discord bot",
     description:
-      "Aerox is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
+      "AstraX is an all-in-one Discord bot crafted for modern communities. Moderation, music, fun, utilities — beautifully designed and lightning fast.",
     version: "v3.2.0",
-    servers: "120K+",
-    users: "8.4M+",
-    commands: 240,
+    servers: "100+",
+    users: "2.4k+",
+    commands: 300,
     uptime: "99.99%",
-    inviteUrl: "https://discord.com/oauth2/authorize",
-    supportUrl: "https://discord.gg/aerox",
+    inviteUrl: "https://discord.com/oauth2/authorize?client_id=1510888413933600778",
+    supportUrl: "https://discord.gg/wFadzQ5Xgu",
   },
 
   nav: [
@@ -313,9 +313,9 @@ export const siteConfig = {
 
   contact: {
     email: "xyz@gmail.com",
-    discord: "https://discord.gg/aerox",
-    github: "https://github.com/AeroXDevs",
-    twitter: "https://twitter.com/nebula_bot",
+    discord: "https://discord.gg/wFadzQ5Xgu",
+    github: "https://github.com/",
+    twitter: "https://twitter.com/",
   },
 
   socials: [
