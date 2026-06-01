@@ -12,8 +12,8 @@ export const siteConfig = {
     users: "8.4M+",
     commands: 240,
     uptime: "99.99%",
-    inviteUrl: "https://discord.com/oauth2/authorize",
-    supportUrl: "https://discord.gg/",
+    inviteUrl: "https://discord.com/oauth2/authorize?client_id=1510888413933600778",
+    supportUrl: "https://discord.gg/5tQKwgKmbM",
   },
 
   nav: [
