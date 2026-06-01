@@ -27,45 +27,38 @@ export const siteConfig = {
     {
       icon: Shield,
       title: "Advanced Moderation",
-      description:
-        "AI-powered auto-mod, raid protection, and granular permission controls keep your server safe 24/7.",
+      description: "AI-powered auto-mod, raid protection, and granular permission controls keep your server safe 24/7.",
     },
     {
       icon: Music,
       title: "High-Fidelity Music",
-      description:
-        "Crystal clear lossless audio streaming from Spotify, YouTube, SoundCloud and Apple Music.",
+      description: "Crystal clear lossless audio streaming from Spotify, YouTube, SoundCloud and Apple Music.",
     },
     {
       icon: Sparkles,
       title: "Custom Embeds",
-      description:
-        "Create stunning announcements with our visual embed builder — no code required.",
+      description: "Create stunning announcements with our visual embed builder — no code required.",
     },
     {
       icon: Zap,
       title: "Lightning Fast",
-      description:
-        "Globally distributed infrastructure ensures every command responds in under 50ms.",
+      description: "Globally distributed infrastructure ensures every command responds in under 50ms.",
     },
     {
       icon: MessageSquare,
       title: "Smart Tickets",
-      description:
-        "A complete support system with transcripts, categories and staff assignments.",
+      description: "A complete support system with transcripts, categories and staff assignments.",
     },
     {
       icon: Globe,
       title: "20+ Languages",
-      description:
-        "Fully translated experience for your international community members.",
+      description: "Fully translated experience for your international community members.",
     },
   ],
 
   commandCategories: [
     {
       name: "Moderation",
-      icon: Shield,
       commands: [
         { name: "!ban", description: "Ban a member from the server", usage: "!ban <user> [reason]" },
         { name: "!kick", description: "Kick a member from the server", usage: "!kick <user> [reason]" },
@@ -112,11 +105,10 @@ export const siteConfig = {
         { name: "/moderation", description: "moderation commands.", usage: "/moderation" },
         { name: "/modrole", description: "Configure the moderator role for the server", usage: "/modrole" },
         { name: "/trusted", description: "Manage trusted users and roles (Extra Admins).", usage: "/trusted" }
-      ],
+      ],⁷
     },
     {
       name: "Music",
-      icon: Music,
       commands: [
         { name: "!Play", description: "Play a song or playlist from supported platforms", usage: "!Play <query/URL>" },
         { name: "!playnow", description: "Play a song immediately, bumping it to the top of queue", usage: "!playnow <query/URL>" },
@@ -180,7 +172,6 @@ export const siteConfig = {
     },
     {
       name: "Utility",
-      icon: Zap,
       commands: [
         { name: "!serverinfo", description: "Display detailed server configuration and stats", usage: "!serverinfo" },
         { name: "!userinfo", description: "Display detailed user information and platform roles", usage: "!userinfo [user]" },
@@ -338,7 +329,6 @@ export const siteConfig = {
     },
     {
       name: "Fun",
-      icon: Sparkles,
       commands: [
         { name: "!meme", description: "Get a random fresh meme asset from Reddit channels", usage: "!meme" },
         { name: "!action", description: "Perform an expression action (hug, slap, etc) on someone", usage: "!action <type> <user>" },
@@ -412,7 +402,7 @@ export const siteConfig = {
         { name: "!gpause", description: "Pause a currently active running countdown server giveaway draw", usage: "!gpause <message_id>" },
         { name: "!gresume", description: "Resume a paused ongoing raffle draw timer tracking clock", usage: "!gresume <message_id>" },
         { name: "!gedit", description: "Modify timer metrics or prize string labels of an active giveaway", usage: "!gedit <message_id>" },
-        { name: "!gend", description: "Stop giveaway timer instantly and enforce immediate random winner selection", usage: "!gend <message_id>" },
+        { name: "!end", description: "Stop giveaway timer instantly and enforce immediate random winner selection", usage: "!gend <message_id>" },
         { name: "!greroll", description: "Draw a clean new random alternative winner string from past entry pools", usage: "!greroll <message_id>" },
         { name: "!gban", description: "Ban an exploit user from logging entries into server giveaway arrays", usage: "!gban <user>" },
         { name: "!gunban", description: "Restore user eligibility permissions to rejoin server giveaway tasks", usage: "!gunban <user>" },
@@ -422,7 +412,6 @@ export const siteConfig = {
         { name: "!wouldyourather", description: "Serve an interactive choose-one choice text question poll template", usage: "!wouldyourather" },
         { name: "!addpremium", description: "Manually bind premium status tier privilege onto a specific server", usage: "!addpremium <server_id>" },
         { name: "!premium", description: "Check status details tracking your global bot premium tier benefits", usage: "!premium" },
-        { name: "!premium", description: "Toggle active state over premium modules tiers features packages", usage: "!premium" },
         { name: "!listprem", description: "Display list tracking all servers assigned with active premium assets", usage: "!listprem" },
         { name: "!removepremium", description: "Revoke premium license configurations access away from a layout target", usage: "!removepremium <server_id>" },
         { name: "!updatepremium", description: "Refresh or modify authorization keys logs for premium active profiles", usage: "!updatepremium" },
@@ -432,8 +421,7 @@ export const siteConfig = {
         { name: "!unblacklistuser", description: "Lift global restrictions blockades off a previously blacklisted individual", usage: "!unblacklistuser <user_id>" },
         { name: "!blacklist", description: "Open core administrative tracking layout dashboard tracking server bans arrays", usage: "!blacklist" },
         { name: "!globalban", description: "Enforce an un-bypasable global ban cross network structures against users", usage: "!globalban <user_id>" },
-        { name: "!gban", description: "Enforce quick administrative network wide security ban orders", usage: "!gban <user_id>" },
-        { name: "!botset", description: "Access deep developer terminal control nodes over core bot functions", usage: "!botset" },
+        { name: "!botset", description: "Access developer terminal control nodes over core bot functions", usage: "!botset" },
         { name: "!getuprestart", description: "Fetch system diagnostics metrics data before running safe reboot tasks", usage: "!getuprestart" },
         { name: "!leaveserver", description: "Force the bot code framework to leave a specific target server location", usage: "!leaveserver <server_id>" },
         { name: "!luxury", description: "Manage extreme luxury tier configurations exclusive server layout tools", usage: "!luxury" },
@@ -476,11 +464,9 @@ export const siteConfig = {
         { name: "!rename", description: "Change text label alias tracking an ongoing ticket room window", usage: "!rename <new_name>" },
         { name: "!retick", description: "Reopen a previously closed ticket session window tracking dashboard", usage: "!retick" },
         { name: "!reviewsetup", description: "Configure automated user satisfaction feedback loops questions for closed tickets", usage: "!reviewsetup" },
-        { name: "!transcript", description: "Generate a beautiful clear text/html backup file tracking conversation logs of a ticket room", usage: "!transcript" },
+        { name: "!transcript", description: "Generate backup file tracking conversation logs of a ticket room", usage: "!transcript" },
         { name: "!fuckticket", description: "Emergency fast force close tool to override blocked or stuck support loops", usage: "!fuckticket" },
         { name: "!reaction", description: "Configure specialized custom reaction triggers responding to specified inputs", usage: "!reaction" },
-        { name: "!roleicon", description: "Assign a custom image icon badge asset to a specific server role profile", usage: "!roleicon <role> <emoji/url>" },
-        { name: "!setboost", description: "Set or design custom alert embeds announcing server boost events", usage: "!setboost" },
         { name: "/say", description: "Make the bot say something in a channel", usage: "/say" },
         { name: "/economy", description: "Manage your economy and purchases", usage: "/economy" },
         { name: "/rewards", description: "Configure role rewards", usage: "/rewards" },
@@ -528,7 +514,6 @@ export const siteConfig = {
       ],
     },
   ],
-
   team: [
     {
       name: "AeroX 1",
@@ -549,23 +534,15 @@ export const siteConfig = {
   faqs: [
     {
       q: "Is Aerox free to use?",
-      a: "Yes, all core features are completely free. We offer an optional Premium tier for advanced music quality and exclusive customization.",
+      a: "Yes, all core features are completely free. We offer an optional Premium tier for advanced music quality.",
     },
     {
       q: "How do I add AstraX to my server?",
-      a: "Click the Invite button anywhere on the site, authorize the bot with the Manage Server permission, and you are ready in seconds.",
+      a: "Click the Invite button anywhere on the site, authorize the bot and you are ready.",
     },
     {
       q: "Does AstraX store my messages?",
-      a: "No. We only store configuration data essential for commands. See our Privacy page for full details.",
-    },
-    {
-      q: "Can I request a new feature?",
-      a: "Absolutely. Join our support server and post in the #suggestions channel, we ship community ideas every week.",
-    },
-    {
-      q: "What happens if the bot goes offline?",
-      a: "Our infrastructure is multi-region with automatic failover. In the rare case of downtime, status updates are posted to our support server immediately.",
+      a: "No. We only store configuration data essential for commands.",
     },
   ],
 
@@ -587,19 +564,7 @@ export const siteConfig = {
     sections: [
       {
         title: "Information We Collect",
-        body: "We collect minimal data required for the bot to function: server IDs, channel IDs, role IDs, and configuration preferences. We never store message content unless explicitly enabled by a server administrator for logging features.",
-      },
-      {
-        title: "How We Use Your Data",
-        body: "Your data is used solely to provide bot functionality such as remembering your server's prefix, custom commands, moderation logs, and music queues. We do not sell, rent, or share your data with third parties.",
-      },
-      {
-        title: "Data Retention",
-        body: "Configuration data persists while the bot remains in your server. When Nebula is removed, all associated data is automatically purged within 30 days.",
-      },
-      {
-        title: "Your Rights",
-        body: "You may request a full export or deletion of your data at any time by contacting our support team via email or Discord.",
+        body: "We collect minimal data required for the bot to function: server IDs, channel IDs, role IDs.",
       },
     ],
   },
@@ -608,15 +573,7 @@ export const siteConfig = {
     sections: [
       {
         title: "Acceptable Use",
-        body: "By using Nebula, you agree not to abuse the service, attempt to bypass rate limits, or use the bot for illegal activities. Violations may result in a permanent ban from the service.",
-      },
-      {
-        title: "Service Availability",
-        body: "While we target 99.99% uptime, Nebula is provided as-is. We are not liable for service interruptions, data loss, or damages arising from use of the bot.",
-      },
-      {
-        title: "Changes to These Terms",
-        body: "We may update these terms occasionally. Continued use after changes constitutes acceptance of the updated terms.",
+        body: "By using Nebula, you agree not to abuse the service.",
       },
     ],
   },
