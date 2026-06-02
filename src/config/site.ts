@@ -273,16 +273,16 @@ export const siteConfig = {
 
   team: [
     {
-      name: "AeroX 1",
+      name: "Darkprince",
       role: "Founder & Lead Developer",
       bio: "Architects the core. Loves clean code and 3am refactors.",
       avatar: prayagAvatar,
       socials: { github: "#", twitter: "#" },
     },
     {
-      name: "AeroX 2",
-      role: "Product Designer",
-      bio: "Crafts the pixels you fall in love with.",
+      name: "Slyrid",
+      role: "2nd developer",
+      bio: "Solve the bugs and Crafts the pixels you fall in love with.",
       avatar: "",
       socials: { github: "#", twitter: "#" },
     },
